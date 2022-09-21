@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../portfolio react"
+		},
+		{
+			"path": "../../../New folder"
+		},
+		{
+			"path": "../../../react app"
+		},
+		{
+			"path": "../../../class task"
+		},
+		{
+			"path": "../../../node fs task"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "calculator task"
+	}
+}
