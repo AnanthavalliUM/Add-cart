@@ -32,7 +32,7 @@ function Product(props)
   
   const handleChart=()=>{
   console.log(cartName)
-  //passing data from child to parent  using callback 
+  
     if(cartName === "Add to cart") props.parentCallBack(1, name)
     else props.parentCallBack(-1,name)
   }
@@ -77,7 +77,6 @@ function App() {
   ])
     const [cartNo,setCartNo]=useState(0)
   
-//callback function triggered in child component
     const callBackSet=(data,name)=>{
       setCartNo(cartNo + data)
       console.log(name)
@@ -93,7 +92,7 @@ function App() {
       <Navbar  cartNo={cartNo}/>
    <div className="cardContainer">
        {items.map(item=>{
-         //adding the callback to props
+         
           return <Product value={item} parentCallBack={callBackSet} />
        })}
        </div>
