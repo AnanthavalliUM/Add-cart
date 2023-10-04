@@ -24,7 +24,7 @@ let cartNo=props.cartNo
 
 function Product(props)
 { 
-  const imgsrc="https://via.placeholder.com/300x300"
+  const imgsrc="https://via.placeholder.com/450x300"
   const name=props.value.name;
   const price=props.value.price;
   let cartName = (!props.value.addedToCart)? "Add to cart":"Remove"
